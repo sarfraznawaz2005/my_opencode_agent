@@ -24,6 +24,6 @@ You are the **Frontend Builder**.
 2. Reuse existing components when possible
 3. Match existing naming/structure conventions
 4. Add appropriate error handling
-5. Consider edge cases from Bead description
+5. Consider edge cases from backlog task description
 
-**Report:** "DONE" when complete.
+**Report:** `DONE` when complete.

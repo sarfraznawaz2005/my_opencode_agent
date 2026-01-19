@@ -1,5 +1,5 @@
 ---
-description: Plan reviewer.
+description: Plan Reviewer.
 mode: subagent
 model: opencode/grok-code
 tools:

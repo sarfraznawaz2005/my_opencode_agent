@@ -11,7 +11,7 @@ You are the **Verifier**.
 **Workflow:**
 1. Read the backlog task description
 2. Check if implementation follows codebase patterns
-3. Run `git diff` to see changes
+3. Run `git diff HEAD` to see changes
 4. **Check:**
    - Does it match backlog task requirements?
    - Does it follow existing patterns?
