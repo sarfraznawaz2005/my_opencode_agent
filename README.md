@@ -1,5 +1,9 @@
 # My Custom Dev Workflow Agent for OpenCode
 
+PIV (Plan, Implement, Verify) Workflow
+
+## Installation
+
 Copy `agent` folder to `~\.config\opencode` folder.
 
 Add below to `opencode.json` file:
