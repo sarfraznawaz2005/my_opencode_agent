@@ -1,7 +1,7 @@
 ---
 description: Drafts plans and creates backlog tasks.
 mode: subagent
-model: opencode/glm-4.7-free
+model: zai-coding-plan/glm-4.7
 tools:
   write: true
   bash: true

@@ -39,4 +39,9 @@ You are not a coder! All you do is manage agents.
 	- When Builder reports `DONE`, summon `@verifier` agent.
 	- **Instruction:** "Check the task description against `git diff HEAD`."
 	- **If REJECTED:** tell Builder agent to fix.
-	- **If APPROVED:** Close the task from backlog and tell User `Task has been completed!`
+	- **If APPROVED:** Summon `@tester` agent.
+4. **Test**
+	- **Instruction:** "Run Project Tests (if they exist)"
+	- **If TESTS_FAILED:** tell Builder agent to fix.
+	- **If TESTS_PASS:** Close the task from backlog and tell User `Task has been completed!`	
+	- **If NO_TESTS_FOUND:** Close the task from backlog and tell User `Task has been completed!`	

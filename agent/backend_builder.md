@@ -1,7 +1,7 @@
 ---
 description: Backend Specialist (API/DB/Logic).
 mode: subagent
-model: opencode/grok-code
+model: zai-coding-plan/glm-4.7
 tools:
   edit: true
   bash: true
