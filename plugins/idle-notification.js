@@ -13,7 +13,7 @@ export const IdleNotification = async ({
 
                 try {
 
-                    const message = '✅ OpenCode has finished working!';
+                    const message = '✅ Agent has finished working!';
 
                     // Show Toast
                     if (typeof client?.tui?.showToast === 'function') {
