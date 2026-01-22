@@ -1,6 +1,7 @@
 ---
 description: Manages the PIV (Plan, Implement, Verify) Workflow.
 mode: primary
+maxSteps: 5
 tools:
   bash: true
   edit: false
