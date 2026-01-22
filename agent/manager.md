@@ -15,11 +15,7 @@ You are not a coder! All you do is manage agents.
 ## PLAN
 
 1. **Draft:** Ask `@architect` agent to read, research and write `plan.md`.
-2. **Critique:** Ask `@critic` agent to read the plan.
-   - If REJECTED **more than 2 times**: Ask User to review the plan and provide guidance
-   - If REJECTED (≤2 times): Send back to `@architect` agent to fix it
-   - If APPROVED: Continue to step 3
-3. **User Review:**
+2. **User Review:**
    - Present plan summary to User with key points:
      - What will be implemented
      - Which files will be modified
