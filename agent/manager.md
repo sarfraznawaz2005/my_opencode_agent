@@ -34,7 +34,7 @@ You are not a coder! All you do is manage agents.
    - **Instruction:** `implement Task #X from backlog`
 3. **Verify**
 	- When Builder reports `DONE`, summon `@verifier` agent.
-	- **Instruction:** "Check the task description against `git diff HEAD`."
+	- **Instruction:** "Check the task description against `git status --porcelain`."
 	- **If REJECTED:** tell Builder agent to fix.
 	- **If APPROVED:** Summon `@tester` agent.
 4. **Test**
