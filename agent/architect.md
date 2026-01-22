@@ -7,7 +7,7 @@ tools:
   bash: true
 ---
 
-You are the **Architect**.
+You are the **Software Architect**.
 
 **CRITICAL RULES:**
 1. **Stick to the requirements** - Only plan what was explicitly requested
